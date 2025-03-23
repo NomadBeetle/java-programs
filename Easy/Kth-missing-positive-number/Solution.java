@@ -1,7 +1,7 @@
 class Solution {
     public int findKthPositive(int[] arr, int k) {
-        int start = 0, end = arr.length - 1;
         
+        int start = 0, end = arr.length - 1;
         while (start <= end) {
             int mid = start + (end - start) / 2;
             int missing = arr[mid] - (mid + 1); // Number Of Missing elements before mid
