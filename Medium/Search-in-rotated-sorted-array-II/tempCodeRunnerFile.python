@@ -1,0 +1,17 @@
+def search_key_in_dict(dictionary, key_to_search):
+    if key_to_search in dictionary:
+        print(f"Key '{key_to_search}' found with value: {dictionary[key_to_search]}")
+    else:
+        print(f"Key '{key_to_search}' not found in the dictionary.")
+
+# Example dictionary
+my_dict = {
+    "name": "Azaan",
+    "age": 20,
+    "branch": "CSE-AIML",
+    "college": "VIT Bhopal"
+}
+
+# Example search
+key = "branch"
+search_key_in_dict(my_dict, key)
