@@ -74,15 +74,3 @@ Output:
 * `-10^9 <= nums1[i], nums2[j] <= 10^9`
 
 ---
-
-## Objective
-
-Merge both arrays in-place with a time complexity of `O(m + n)` and constant extra space `O(1)`.
-
----
-
-## Approach Overview
-
-Since `nums1` contains sufficient trailing space to hold elements from `nums2`, the optimal strategy is to merge from the end of the arrays. By comparing the largest remaining elements from both arrays and placing the larger one at the last unfilled position in `nums1`, we prevent overwriting existing values that are still needed.
-
-This approach ensures linear time complexity and constant auxiliary space.
