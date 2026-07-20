@@ -6,5 +6,5 @@ This repository contains solutions to LeetCode problems, organized by difficulty
 - **Hard**
 
 Each folder contains:
-- A `question.txt` file with the problem statement.
+- A `question.md` file with the problem statement.
 - A `.java` file with the solution.
