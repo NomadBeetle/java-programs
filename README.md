@@ -7,4 +7,4 @@ This repository contains solutions to LeetCode problems, organized by difficulty
 
 Each folder contains:
 - A `question.md` file with the problem statement.
-- A `.java` file with the solution.
+- A `Solution.java` file with the solution.
